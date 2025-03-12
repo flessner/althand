@@ -19,7 +19,7 @@ pub fn setup(app: &App) -> Result<(), Error> {
                 println!("menu item {:?} not handled", event.id);
             }
         })
-        .build(app)?;
+        .build(app);
 
     Ok(())
 }
