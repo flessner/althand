@@ -10,7 +10,18 @@
     "frontendDist": "../build"
   },
   "app": {
-    "windows": [],
+    "windows": [
+      {
+        "label": "main",
+        "url": "http://localhost:1420",
+        "visible": true,
+        "decorations": false,
+        "transparent": true,
+        "shadow": false,
+        "alwaysOnTop": true,
+        "skipTaskbar": true
+      }
+    ],
     "security": {
       "csp": null
     }
